@@ -1,1 +1,0 @@
-# A simple index of everything I'm learning about Web API's and the whole web structure

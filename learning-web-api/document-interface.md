@@ -13,11 +13,17 @@
 
 ## Methods:
 ### Document.querySelector()
+
 - https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector
 
-- The Document method querySelector() returns the first Element within the document that matches the specified selector, or group of selectors. If no matches are found, null is returned.The parameter for this method should be a DOMString containing one or more selectors to match. This string must be a valid CSS selector string; if it isn't, a SyntaxError exception is thrown.
+- The Document method querySelector() returns the first Element within the document that matches the specified selector, or group of selectors. If no matches are found, null is returned.
 
 - Syntax: element = document.querySelector(selectors);
+
+- Parameters: The parameter for this method should be a DOMString containing one or more selectors to match. This string must be a valid CSS selector string; if it isn't, a SyntaxError exception is thrown.
+
+- Return value: An Element object representing the first element in the document that matches the specified set of CSS selectors, or null is returned if there are no matches.  
+
 
 ### Document.getElementById()
 - https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById
